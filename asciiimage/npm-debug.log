@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/alicekuo/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz
+12 verbose folder .
+13 info prepublish asciiimage@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/alicekuo/.npm/1f1177db-tar.lock
+16 silly lockFile 25fa07c8-15994-0-5049068962689489-tmp-tgz tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz
+17 verbose lock tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz /home/alicekuo/.npm/25fa07c8-15994-0-5049068962689489-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 25fa07c8-15994-0-5049068962689489-tmp-tgz tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz
+21 silly lockFile 25fa07c8-15994-0-5049068962689489-tmp-tgz tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz
+22 verbose tar unpack /home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz
+23 silly lockFile bad31173-15994-0-5049068962689489-package tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package
+24 verbose lock tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package /home/alicekuo/.npm/bad31173-15994-0-5049068962689489-package.lock
+25 silly lockFile 25fa07c8-15994-0-5049068962689489-tmp-tgz tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz
+26 verbose lock tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz /home/alicekuo/.npm/25fa07c8-15994-0-5049068962689489-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry 03.png
+31 silly gunzTarPerm extractEntry attachment.php?attachmentid=47332
+32 silly gunzTarPerm extractEntry attachment.php?attachmentid=47332.1
+33 silly gunzTarPerm extractEntry attachment.php?attachmentid=47332.2
+34 silly gunzTarPerm extractEntry iEGmByy9Tutw20RDpkGzjfpuswzEc_3vjYfu3Oup5PHWZ5zvJx0mZ-OlA09GNqzRbg=w300
+35 silly gunzTarPerm extractEntry republic_of_china_640.png
+36 silly lockFile bad31173-15994-0-5049068962689489-package tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package
+37 silly lockFile bad31173-15994-0-5049068962689489-package tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package
+38 silly lockFile 25fa07c8-15994-0-5049068962689489-tmp-tgz tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz
+39 silly lockFile 25fa07c8-15994-0-5049068962689489-tmp-tgz tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/tmp.tgz
+40 verbose tar pack [ '/home/alicekuo/.npm/asciiimage/0.0.0/package.tgz',
+40 verbose tar pack   '/home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package' ]
+41 verbose tarball /home/alicekuo/.npm/asciiimage/0.0.0/package.tgz
+42 verbose folder /home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package
+43 silly lockFile bad31173-15994-0-5049068962689489-package tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package
+44 verbose lock tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package /home/alicekuo/.npm/bad31173-15994-0-5049068962689489-package.lock
+45 silly lockFile 5976d837-npm-asciiimage-0-0-0-package-tgz tar:///home/alicekuo/.npm/asciiimage/0.0.0/package.tgz
+46 verbose lock tar:///home/alicekuo/.npm/asciiimage/0.0.0/package.tgz /home/alicekuo/.npm/5976d837-npm-asciiimage-0-0-0-package-tgz.lock
+47 silly lockFile bad31173-15994-0-5049068962689489-package tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package
+48 silly lockFile bad31173-15994-0-5049068962689489-package tar:///home/alicekuo/tmp/npm-2435-8FvonAEK/1447487315994-0.5049068962689489/package
+49 silly lockFile 5976d837-npm-asciiimage-0-0-0-package-tgz tar:///home/alicekuo/.npm/asciiimage/0.0.0/package.tgz
+50 silly lockFile 5976d837-npm-asciiimage-0-0-0-package-tgz tar:///home/alicekuo/.npm/asciiimage/0.0.0/package.tgz
+51 silly lockFile 16957778-kuo-npm-asciiimage-0-0-0-package /home/alicekuo/.npm/asciiimage/0.0.0/package
+52 verbose lock /home/alicekuo/.npm/asciiimage/0.0.0/package /home/alicekuo/.npm/16957778-kuo-npm-asciiimage-0-0-0-package.lock
+53 silly lockFile 16957778-kuo-npm-asciiimage-0-0-0-package /home/alicekuo/.npm/asciiimage/0.0.0/package
+54 silly lockFile 16957778-kuo-npm-asciiimage-0-0-0-package /home/alicekuo/.npm/asciiimage/0.0.0/package
+55 verbose tar unpack /home/alicekuo/.npm/asciiimage/0.0.0/package.tgz
+56 silly lockFile eefd8ebb-kuo-npm-asciiimage-0-0-0-package tar:///home/alicekuo/.npm/asciiimage/0.0.0/package
+57 verbose lock tar:///home/alicekuo/.npm/asciiimage/0.0.0/package /home/alicekuo/.npm/eefd8ebb-kuo-npm-asciiimage-0-0-0-package.lock
+58 silly lockFile 5976d837-npm-asciiimage-0-0-0-package-tgz tar:///home/alicekuo/.npm/asciiimage/0.0.0/package.tgz
+59 verbose lock tar:///home/alicekuo/.npm/asciiimage/0.0.0/package.tgz /home/alicekuo/.npm/5976d837-npm-asciiimage-0-0-0-package-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm extractEntry index.js
+63 silly gunzTarPerm extractEntry 03.png
+64 silly gunzTarPerm extractEntry attachment.php?attachmentid=47332
+65 silly gunzTarPerm extractEntry attachment.php?attachmentid=47332.1
+66 silly gunzTarPerm extractEntry attachment.php?attachmentid=47332.2
+67 silly gunzTarPerm extractEntry iEGmByy9Tutw20RDpkGzjfpuswzEc_3vjYfu3Oup5PHWZ5zvJx0mZ-OlA09GNqzRbg=w300
+68 silly gunzTarPerm extractEntry republic_of_china_640.png
+69 silly lockFile eefd8ebb-kuo-npm-asciiimage-0-0-0-package tar:///home/alicekuo/.npm/asciiimage/0.0.0/package
+70 silly lockFile eefd8ebb-kuo-npm-asciiimage-0-0-0-package tar:///home/alicekuo/.npm/asciiimage/0.0.0/package
+71 silly lockFile 5976d837-npm-asciiimage-0-0-0-package-tgz tar:///home/alicekuo/.npm/asciiimage/0.0.0/package.tgz
+72 silly lockFile 5976d837-npm-asciiimage-0-0-0-package-tgz tar:///home/alicekuo/.npm/asciiimage/0.0.0/package.tgz
+73 verbose chmod /home/alicekuo/.npm/asciiimage/0.0.0/package.tgz 644
+74 verbose chown /home/alicekuo/.npm/asciiimage/0.0.0/package.tgz [ 1001, 1002 ]
+75 silly lockFile 3a52ce78- .
+76 silly lockFile 3a52ce78- .
+77 silly publish { name: 'asciiimage',
+77 silly publish   version: '0.0.0',
+77 silly publish   description: '',
+77 silly publish   main: 'index.js',
+77 silly publish   bin: { asciiimage: './index.js' },
+77 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+77 silly publish   author: { name: 'alicekuo' },
+77 silly publish   license: 'ISC',
+77 silly publish   readme: 'ERROR: No README data found!',
+77 silly publish   _id: 'asciiimage@0.0.0',
+77 silly publish   dist: { shasum: 'a8edc34b38621e03b42fcc5c2be3e3afd5599018' },
+77 silly publish   _from: '.' }
+78 error need auth auth and email required for publishing
+78 error need auth You need to authorize this machine using `npm adduser`
+79 error System Linux 3.13.0-29-generic
+80 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+81 error cwd /home/alicekuo/asciiimage
+82 error node -v v0.10.26
+83 error npm -v 1.4.3
+84 error code ENEEDAUTH
+85 verbose exit [ 1, true ]
